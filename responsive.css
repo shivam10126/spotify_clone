@@ -1,0 +1,26 @@
+
+@media only screen and (max-width: 1002px) {
+ 
+    .songInfo{
+    position: static;
+    margin-right: 15px;
+    transform: translate(-20px,0px);
+  
+    }
+
+    .songName ,.timestamp{
+        font-size: medium;
+    }
+    .timestamp{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+@media only screen and (max-width: 540px) {
+    .songName{
+        font-size: smaller;
+        overflow: hidden;
+    }
+   
+}
